@@ -1,0 +1,92 @@
+.back3 {
+  position: fixed; left: 0; top: 0; width: 100%; height: 100%;
+  background-color: white; display: none; opacity: 0.8;
+  z-index: 5000;
+}
+.viewForm {
+  position: fixed;  left: 0;  top: 0;
+  width: 100%; height: 100%;
+  z-index: 6000; display: none;
+}
+
+.viewForm > div {
+  position: relative;   width: 600px;    margin: 0 auto;
+  border: 2px solid #ff7799;    border-radius: 10px;
+  background-color: white;
+}
+.viewForm > div > ul, .viewForm > div > ul > li {
+  padding: 0; margin: 0; list-style-type: none;
+}
+
+.viewForm > div > ul {
+  position: relative; width: 95%;
+  padding: 10px 5px; text-align: center;
+  margin: 0 auto;
+}
+.viewForm > div > ul::before, .viewForm > div > ul::after {
+  display: block; content: ''; clear: both;
+}
+.viewForm > div > ul > li {
+  position: relative; display: block; float: left;
+  font-size: 15px; padding: 0 20px;
+}
+.viewForm > div > ul:first-child {
+  border-bottom: 1px solid #ff99aa;
+}
+
+.viewForm > div > ul:first-child > li {
+  text-align: left;
+  /* padding: 5px 20px; */
+}
+.viewForm > div > ul:first-child > li:first-child {
+  border-right: 1px solid #ffdcdc;
+}
+.viewForm > div > ul:first-child > li:last-child {
+  float: right;
+  text-align: right;
+}
+.viewForm > div > ul:nth-child(2) > li:first-child {
+  padding-right: 5px;
+}
+.viewForm > div > ul:nth-child(2) > li:nth-child(2) {
+  padding: 0;
+}
+.viewForm > div > ul:nth-child(2) > li:last-child {
+  float: right;
+}
+.viewForm > div > ul:nth-child(3) > .content {
+  width: 500px;
+  height: 250px;
+  font-size: 15px;
+  border: none;
+  background-color: #fff3f3;
+  resize: none;
+  margin: 0 auto;
+}
+.viewForm > div > ul:nth-child(4) > li {
+  width: 10%; padding: 0;
+}
+.viewForm > div > ul:nth-child(4) > li > input {
+  width: 30px;
+}
+.viewForm > div > ul:nth-child(4) > li:first-child,
+.viewForm > div > ul:nth-child(4) > li:last-child {
+  width: 40%; font-size: 25px;  vertical-align: middle;
+}
+.viewForm > div > ul:nth-child(4) > li:first-child {
+  text-align: right; color: #ff3366;
+}
+.viewForm > div > ul:nth-child(4) > li:last-child {
+  text-align: left; color: #990033;
+}
+
+.viewForm > div > ul:nth-child(5) > li:first-child {
+  text-align: right; width: 50%; padding: 0;
+}
+.viewForm > div > ul:nth-child(5) > li:last-child {
+  text-align: left; width: 50%; padding: 0;
+}
+.viewForm button {
+  width: 100px; height: 30px; font-size: 14px;
+  margin: 0 5px;
+}

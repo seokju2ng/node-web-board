@@ -1,0 +1,96 @@
+.regForm {
+  position: fixed;  left: 0;  top: 0;
+  width: 100%; height: 100%;
+  z-index: 6000; display: none;
+}
+.back1 {
+  position: fixed; left: 0; top: 0; width: 100%; height: 100%;
+  background-color: white; display: none; opacity: 0.8;
+  z-index: 5000;
+}
+.regForm > div {
+  position: relative;   width: 600px;    margin: 0 auto;
+  border: 2px solid #ff7799;    border-radius: 10px;
+  background-color: white;
+}
+.regForm > div > form > ul, .regForm > div > form > ul > li {
+  padding: 0; margin: 0; list-style-type: none;
+}
+.regForm > div > form > ul {
+
+  position: relative;
+  width: 100%; padding-top: 10px;
+}
+.regForm > div > form > ul::before, .regForm > div > form > ul::after {
+  display: block; content: ''; clear: both;
+}
+
+.regForm > div > form > ul > li {
+  position: relative; display: block; float: left;
+  font-size: 15px; color: #ff0066;
+}
+.regForm > div > form > ul > li:first-child {
+  position: relative; display: block; float: left;
+  font-size: 15px;
+}
+.regForm > div > form > ul > li:first-child {
+  width: 21%; text-align: right; color: inherit;
+  padding-right: 15px;
+}
+.regForm > div > ul > li:last-child {
+  width: 75%;
+}
+.regForm > div > form > ul:first-child {
+  padding-top: 30px;
+}
+.regForm > div > ul {
+  position: relative; width: 100%;
+  padding: 15px 0;
+}
+.regForm > div > ul::before, .regForm > div > ul::after {
+  display: block; content: ''; clear: both;
+}
+.regForm > div > ul > li {
+  position: relative; display: block; float: left;
+}
+.regForm > div > ul > li:first-child {
+  text-align: right; width: 50%;
+}
+.regForm > div > ul > li:last-child {
+  text-align: left; width: 50%;
+}
+/* .regForm > div > ul > li > .typePwd {
+  text-align: center;
+  background-color: black;
+} */
+
+.regForm .typeTxt {
+  width: 280px;
+  font-size: 15px;
+  border: 1px solid #666666;
+  background-color: #fff3f3;
+}
+.regForm .content {
+  width: 370px;
+  height: 250px;
+  font-size: 15px;
+  border: 1px solid #666666;
+  background-color: #fff3f3;
+  resize: none;
+}
+.regForm .typePwd {
+  width: 150px;
+  font-size: 15px;
+  border: 1px solid #666666;
+  background-color: #fff3f3;
+  text-align: center;
+}
+.regForm .typeTxt:focus,
+.regForm .content:focus,
+.regForm .typePwd:focus {
+  background-color: white;
+}
+.regForm button {
+  width: 100px;           height: 30px;
+  font-size: 14px; margin: 0 5px;
+}

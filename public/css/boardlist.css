@@ -1,0 +1,74 @@
+ul, ul li { padding: 0; margin: 0; list-style-type: none;}
+.title {
+  text-align: center; margin-top: 50px; font-size: 30px;
+}
+.board {
+  position: relative; left: 0; top: 0; width: 100%; height: 100%; margin-top: 30px;
+}
+.board > .elem {
+  position: relative; width: 800px; margin: 0 auto;
+}
+
+.board > .elem > ul {
+  border-bottom: 1px solid #ffdcdc;
+}
+.board > .elem > ul:first-child {
+  display: block; width: 100%;
+  border-top: 1px solid #ff7799;
+  border-bottom: 1px solid #ff7799;
+  background-color: #fffafa;
+}
+.board > .elem > ul:first-child > li:last-child {
+  color: #ff0066;
+}
+.board > .elem > ul:last-child {
+  border-bottom: 1px solid #ff7799;
+}
+.board > .elem > ul::before, .board > .elem > ul::after {
+  display: block; content: ''; clear: both;
+}
+.board > .elem > ul > li {
+  position: relative; display: block; width: 10%;
+  float: left; text-align: center; padding: 10px 0;
+}
+.board > .elem > ul > li:nth-child(3) {
+  width: 37%;
+}
+.board > .elem > ul > li:nth-child(4) {
+  width: 23%;
+}
+.board > .btns {
+  width: 800px;
+  margin: 0 auto;
+}
+.board > .btns > ul > li {
+  position: relative; display: block; width: 70px;
+  float: right; text-align: right; padding: 10px 0;
+}
+.board > .btns > ul > li:first-child {
+  width: 50%; text-align: left; float: left;
+}
+
+.board > .btns > ul > li > button {
+  width: 50px;
+  height: 25px;
+  font-size: 13px;
+  margin: 0 10px;
+}
+.board > .btns > ul > .no-margin {
+  width: 60px;
+}
+.board > .btns > ul > li > .btn-hotpink {
+  width: 80px;
+}
+.board > .btns > ul > .no-margin > #last {
+  margin: 0 10px 0 0;
+}
+/* .board > .btns > .pages {
+
+} */
+.board > .btns .btn-page {
+  width: 20px; padding: 0; margin: 0;
+  background-color:inherit;
+  border: none; text-align: center;
+}

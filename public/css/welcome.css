@@ -1,0 +1,30 @@
+.wrap {
+  position: fixed; left: 0; top: 0;
+  width: 100%; height: 100%;
+  /* margin: 0 auto; padding: 0;
+  text-align: center; */
+  /* border: 10px solid #ff3399; */
+  background-color: #fffafa;
+}
+.wrap > div {
+  text-align: center;
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+.welcome {
+  display: block;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  background-color: white;
+}
+
+#welcome {
+  display: block;
+  width:100%;
+}
+@media(max-width:600px){
+  #welcome{
+  width:100%;}
+}
