@@ -10,7 +10,6 @@
 <br>
 <p align="center">글 쓰기</p>
 <p align="center"><img src="/screenshot/write.png" width=700></p>
-<p align="center"><img src="/screenshot/horsehead.png"></p>
 
 -----
 <br>
