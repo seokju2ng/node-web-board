@@ -207,7 +207,7 @@ app.get('/board/getlist/:page/:flag', function(request, response){
   let con = mysql.createConnection(DB_CONFIG);
   let flag = request.params.flag;
   let page = request.params.page;
-  let listSize = 20;
+  let listSize = 10;
   let total = 0;
   let sql = "SELECT CEIL(COUNT(*)/"+listSize+") 'total' FROM post_info_tb;";
 
